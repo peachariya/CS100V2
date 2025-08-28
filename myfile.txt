@@ -1,3 +1,4 @@
 Hello World !
 Let's try Git.
 How about it?   
+I think Git is great. I love Git.
