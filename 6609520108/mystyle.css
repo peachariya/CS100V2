@@ -1,0 +1,194 @@
+/* 🌸 สไตล์หลักของเว็บ */
+body {
+  font-family: "Tahoma", sans-serif;
+  background: linear-gradient(to bottom, #fffdf8, #fff4e6);
+  color: #4b2e2e;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* 🌸 ส่วนหัว พร้อมลายไทยสวยๆ */
+header {
+  background: 
+    linear-gradient(rgba(230, 177, 126, 0.8), rgba(216, 154, 92, 0.8)),
+    url('resources/thai-pattern.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  border-bottom: 5px solid #e6b17e; /* ขอบล่างอ่อน ๆ เพิ่มความหรู */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* ทำให้ข้อความเด่นบนพื้นหลัง */
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* 🌸 ส่วนเรื่องราวของร้าน */
+section.story {
+  background: #fff8f0;          /* พื้นหลังอ่อน */
+  border: 2px solid #e6b17e;   /* ขอบส้มอ่อน */
+  border-radius: 15px;          /* โค้งมน */
+  padding: 25px 20px;
+  max-width: 900px;
+  margin: 30px auto;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+/* 🌸 หัวข้อเรื่องราว */
+section.story h2 {
+  text-align: center;
+  color: #6a3d2e;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  font-family: 'Tahoma', sans-serif;
+}
+
+/* 🌸 ข้อความเรื่องราว */
+
+section.story p {
+  font-size: 1.1em;
+  color: #4b2e2e;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+  padding: 0 10px;
+}
+
+/* 🌸 เส้นตกแต่งด้านบนและล่าง */
+section.story::before,
+section.story::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+
+  margin: 15px auto;
+}
+
+
+/* 🌸 ส่วนเนื้อหา */
+section {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* 🌸 เมนูสินค้า */
+.product {
+  border: 1px solid #f0d9c3;
+  background: #ffffffcc;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  text-align: center;
+  background: linear-gradient(to bottom, #fffdfd, #fff4f8); /* พื้นหลังพาสเทลชมพูอ่อน */
+}
+
+.product:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+  background: linear-gradient(to bottom, #f6fff6, #fffdfd); /* เขียวใบเตยอ่อน */
+}
+
+.product img {
+  width: 220px;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 🌸 hover ที่รูป */
+.product img:hover {
+  transform: scale(1.08); /* ขยายเล็กน้อย */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  border: 3px solid #f9c5d1; /* ขอบชมพูพาสเทล */
+}
+
+
+/* 🌸 เครดิตรูป */
+.credit {
+  font-size: 12px;
+  color: gray;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+/* 🌸 วิดีโอ */
+video {
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #f3d9b1;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* 🌸 ฟุตเตอร์ */
+footer {
+  background: linear-gradient(135deg, #e6b17e, #d89a5c);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+/* 🌸 ส่วนแจ้งนัดรับ / รับหิ้ว */
+section h2 {
+  color: #6a3d2e;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+.pickup-notice {
+  background: #fff4e6;           /* พื้นหลังอ่อนเข้ากับธีม */
+  border: 2px solid #e6b17e;    /* ขอบส้มอ่อน */
+  border-radius: 15px;           /* โค้งมน */
+  padding: 20px;
+  max-width: 700px;
+  margin: 20px auto;
+  color: #4b2e2e;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* หัวข้อภายในกรอบ */
+.pickup-notice h2 {
+  color: #6a3d2e;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.pickup-notice ul {
+  list-style-type: disc;      /* ใช้ขีดปกติ */
+  margin: 0;                  /* ลบ margin ด้านนอก */
+  padding-left: 1.2em;        /* ปรับระยะห่างให้ชิดคำว่า "รับหิ้ว" */
+}
+
+.pickup-notice li {
+  margin: 4px 0;
+}
+
+/* ปรับให้มือถือ */
+@media (max-width: 600px) {
+  .pickup-notice {
+    padding: 15px;
+    font-size: 1em;
+  }
+}
+
